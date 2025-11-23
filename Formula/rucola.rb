@@ -1,16 +1,16 @@
 class Rucola < Formula
   desc "Terminal-based markdown note manager."
   homepage "https://github.com/Linus-Mussmaecher/rucola"
-  version "0.7.0"
+  version "0.8.0"
   if OS.mac?
-    url "https://github.com/Linus-Mussmaecher/rucola/releases/download/v0.7.0/rucola-notes-x86_64-apple-darwin.tar.xz"
-    sha256 "fa860560b28414a57819229a8ad9d882eb378310a0ad4ec4438e9e46df02612f"
+    url "https://github.com/Linus-Mussmaecher/rucola/releases/download/v0.8.0/rucola-notes-x86_64-apple-darwin.tar.xz"
+    sha256 "e075fd1ea58c5e997216d775f33d255700fc1e98966952d4d899dc936d7a74fa"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/Linus-Mussmaecher/rucola/releases/download/v0.7.0/rucola-notes-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "a5b47b22da0b7a20c91a859e84d6975102e362790538716577a05a7e317edf57"
+    url "https://github.com/Linus-Mussmaecher/rucola/releases/download/v0.8.0/rucola-notes-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "dddea7a47f50d9e3b4ac86d31a459e4ebe7e94bfb3a45c3bc767bfc7e02bd6e4"
   end
-  license "GPL-3.0"
+  license "GPL-3.0-only"
 
   BINARY_ALIASES = {
     "aarch64-apple-darwin":     {},
