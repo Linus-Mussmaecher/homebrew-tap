@@ -1,14 +1,14 @@
 class Rucola < Formula
   desc "Terminal-based markdown note manager."
   homepage "https://github.com/Linus-Mussmaecher/rucola"
-  version "0.8.1"
+  version "0.8.2"
   if OS.mac?
-    url "https://github.com/Linus-Mussmaecher/rucola/releases/download/v0.8.1/rucola-notes-x86_64-apple-darwin.tar.xz"
-    sha256 "6af5c23a3d855849b048f826ee6d9c575dd6d307b0baa7b3192570ee631d63c0"
+    url "https://github.com/Linus-Mussmaecher/rucola/releases/download/v0.8.2/rucola-notes-x86_64-apple-darwin.tar.xz"
+    sha256 "30ba16dabd3ace53d691c472bfed6144666e6fe6cd3c992289334b5ec71d5819"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/Linus-Mussmaecher/rucola/releases/download/v0.8.1/rucola-notes-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "261bbca780c871b726017ab9cc6b4982a3ae05dfa99cb8a9a459ccae1e43c28f"
+    url "https://github.com/Linus-Mussmaecher/rucola/releases/download/v0.8.2/rucola-notes-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "1faaf60ccddcda146bd6b34acb743c2fc32abf12b54eb83ef36a7791396b477c"
   end
   license "GPL-3.0-only"
 
